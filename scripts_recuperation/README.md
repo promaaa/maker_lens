@@ -3,7 +3,7 @@
 Ce dossier contient les outils permettant de récupérer (scraper) les tutoriels « makers » depuis différents sites, puis de les mettre en forme automatiquement.
 
 ## Structure
-
+```
 - **`scripts/`** : Scripts principaux de scraping.
 ├──  instructables_scraper.py              # Scraper instructables
 ├──  lowtechlab_scraper.py                 # Scraper lowtechlab
@@ -16,7 +16,7 @@ Ce dossier contient les outils permettant de récupérer (scraper) les tutoriels
 - **`pages_brutes/`** : Pages HTML brutes téléchargées.
 - **`utilitaires/`** : Fonctions utilitaires partagées.
 └──  harmonizer.py                         # Visualisation des pages scraper après la conversion en json
-
+```
 ## Utilisation
 
 Consultez les scripts individuels pour les instructions d'exécution.
