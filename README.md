@@ -2,6 +2,8 @@
 
 MakerLens est une application web conçue pour accompagner les makers dans la création et le recyclage d'objets. Elle permet de découvrir, rechercher et consulter des tutoriels techniques structurés (low-tech, Arduino, bricolage).
 
+![[donnees/screenshot-of-app.png]]
+
 ## Fonctionnalités
 
 - **Mode Création** : Rechercher des tutoriels pour fabriquer un objet à partir de zéro
