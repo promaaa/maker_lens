@@ -4,18 +4,22 @@ Ce dossier contient les outils permettant de récupérer (scraper) les tutoriels
 
 ## Structure
 ```
-- **`scripts/`** : Scripts principaux de scraping.
-├──  instructables_scraper.py              # Scraper instructables
-├──  lowtechlab_scraper.py                 # Scraper lowtechlab
-└──  wikifab.py                            # Scraper wikifab
-- **`analyseurs/`** : Scripts d'analyse et de parsing des pages.
-├──  html_to_json_Instructables.py         # Conversion instructables
-├──  html_to_json_lowtech.py               # Conversion lowtechlab
-└──  html_to_json_wikifab.py               # Conversion wikifab
-- **`donnees_brutes/`** : Données JSON brutes extraites.
-- **`pages_brutes/`** : Pages HTML brutes téléchargées.
-- **`utilitaires/`** : Fonctions utilitaires partagées.
-└──  harmonizer.py                         # Visualisation des pages scraper après la conversion en json
+- scripts/                          # Scripts principaux de scraping
+│   ├── instructables_scraper.py    # Scraper Instructables
+│   ├── lowtechlab_scraper.py       # Scraper Lowtech Lab
+│   └── wikifab.py                  # Scraper Wikifab
+│
+- analyseurs/                       # Scripts d'analyse et de parsing des pages
+│   ├── html_to_json_Instructables.py  # Conversion Instructables
+│   ├── html_to_json_lowtech.py        # Conversion Lowtech Lab
+│   └── html_to_json_wikifab.py        # Conversion Wikifab
+│
+- donnees_brutes/                   # Données JSON brutes extraites
+│
+- pages_brutes/                     # Pages HTML brutes téléchargées
+│
+- utilitaires/                      # Fonctions utilitaires partagées
+    └── harmonizer.py               # Visualisation des pages scrapers après conversion en JSON
 ```
 ## Utilisation
 
