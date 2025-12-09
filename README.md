@@ -2,6 +2,8 @@
 
 MakerLens est une application web conçue pour accompagner les makers dans la création et le recyclage d'objets. Elle permet de découvrir, rechercher et consulter des tutoriels techniques structurés (low-tech, Arduino, bricolage).
 
+![Interface MakerLens](donnees/screenshot-of-app.png)
+
 ## Fonctionnalités
 
 - **Mode Création** : Rechercher des tutoriels pour fabriquer un objet à partir de zéro
@@ -14,7 +16,7 @@ MakerLens est une application web conçue pour accompagner les makers dans la cr
 ```
 maker_lens/
 ├── interface/           # Application web (HTML, CSS, JS)
-│   ├── index.html       # Point d'entrée principal
+│   ├── index.html       # Point d'e´ntrée principal
 │   ├── css/             # Feuilles de style
 │   ├── js/              # Scripts JavaScript (recherche, génération)
 │   └── assets/          # Images et ressources statiques
