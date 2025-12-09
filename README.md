@@ -14,7 +14,7 @@ MakerLens est une application web conçue pour accompagner les makers dans la cr
 ```
 maker_lens/
 ├── interface/           # Application web (HTML, CSS, JS)
-│   ├── index.html       # Point d'entrée principal
+│   ├── index.html       # Point d'e´ntrée principal
 │   ├── css/             # Feuilles de style
 │   ├── js/              # Scripts JavaScript (recherche, génération)
 │   └── assets/          # Images et ressources statiques
